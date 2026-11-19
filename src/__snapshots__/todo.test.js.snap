@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`операции со списком задач summarizeTasks возвращает счётчики и названия в исходном порядке 1`] = `
+{
+  "active": 1,
+  "done": 1,
+  "titles": [
+    "Хлеб",
+    "Молоко",
+  ],
+  "total": 2,
+}
+`;

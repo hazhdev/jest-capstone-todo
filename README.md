@@ -18,7 +18,7 @@ Jest 30, Babel, ES-модули, GitHub Actions.
 ## Запуск
 
 ```bash
-npm install
+npm ci
 npm test              # прогнать тесты
 npm run test:coverage # тесты + отчёт о покрытии
 ```
@@ -29,14 +29,16 @@ npm run test:coverage # тесты + отчёт о покрытии
 - Параметризованные тесты (`test.each`)
 - Проверка иммутабельности
 - Моки зависимостей (`jest.fn`, `toHaveBeenCalledWith`)
-- Асинхронные тесты (`async/await`, `resolves`, `rejects`)
+- Асинхронные тесты (`async/await`, `rejects`)
 - Виртуальное время (`useFakeTimers`, `advanceTimersByTime`)
 - Снимки (`toMatchSnapshot`)
 - Порог покрытия (`coverageThreshold`)
 
 ## Покрытие
 
-<!-- Вставьте сюда скриншот таблицы покрытия из `npm run test:coverage` -->
+Покрытие модуля составляет 100% по инструкциям, ветвям, функциям и строкам.
+
+![Таблица покрытия Jest](docs/coverage.png)
 
 ---
 
